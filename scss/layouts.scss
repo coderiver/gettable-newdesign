@@ -1,0 +1,22 @@
+@import "base";
+/*main*/
+.cols {
+
+}
+.col-1 {
+    float: left;
+    width: 670px;
+}
+.col-2 {
+    float: right;
+    width: 230px;
+}
+.cols_alt{
+  .col-1{
+    float: right;
+  }
+  .col-2{
+    float: left;
+    position: relative;
+  }
+}
